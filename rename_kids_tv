@@ -1,0 +1,4 @@
+filebot -script ./groovy/kids_tv.groovy \
+--db TheTVDB \
+-non-strict \
+--log-file $HOME/logs/context.log

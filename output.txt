@@ -1,0 +1,23 @@
+$HOME/cloud/orionsbelt-RW/Plex-Media/Anime
+$HOME/cloud/orionsbelt-RW/Plex-Media/Anime_Movies
+$HOME/cloud/orionsbelt-RW/Plex-Media/4K_Movies
+$HOME/cloud/orionsbelt-RW/Plex-Media/Kids_Movies
+$HOME/cloud/orionsbelt-RW/Plex-Media/Movies
+$HOME/cloud/orionsbelt-RW/Plex-Media/Kids_TV
+$HOME/cloud/orionsbelt-RW/Plex-Media/TV
+$
+
+----------------------- 
+Instructions: 
+ - The first 7 lines must be the File Output Locations. 
+ - Don't put anything else on those lines. 
+ - Remember your trailing slashes. 
+ - Line 1 is for Anime TV Shows.
+ - Line 2 is for Anime Movies.
+ - Line 3 is for 4k Movies.
+ - Line 4 is for Kid's Movies.
+ - Line 5 is for Movies.
+ - Line 6 is for Kid's TV Shows. 
+ - Line 7 is for TV Shows. 
+
+ - UNC and local paths supported. 
