@@ -1,0 +1,1 @@
+{info.network}/{n} ({y}{" $CERTIFICATION"})/{n} ({y}) - {s00e00} - {t} [{vf} {hd}{" $SOURCE"} {vc} {ac} {af}{" $GROUP"}]
