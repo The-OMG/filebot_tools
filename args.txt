@@ -1,0 +1,13 @@
+seriesFormat="TV Shows/Processed/{(audio.language) =~ /en/ ? null : 'Foreign.'}{genres =~ /Children|Family/ ? 'TV.Cartoons_and_Kids' : genres =~ /Animation|Anime/ ? 'Anime' : 'TV'}{hd =~ /UHD/ ? '.4K' : null}{f.directory ? '.Disc' : null}/{ny}/{any{fn.match(/(.*S\d\dE\d\d.*?\d{3,}p.*)/).removeAll(/-xpost/)}{ny + ' ' + s00e00 + ' - ' + t + ' - [' + allOf{source+'-'}{vf}{' '+hdr}{' '+ac}{' '+vc}{' '+channels}{'-'+group}.join() + ']'}}"
+movieFormat="Movies/Processed/{y < 1979 ? '/OLD/' : ''}{(audio.language) =~ /en/ ? null : 'Foreign.'}{genres =~ /Children|Family/ ? 'Movies.Kids' : {genres =~ /Animation|Anime/ ? 'Anime.Movies' : 'Movies'}}{hd =~ /UHD/ ? '.4K' : '.HD'}{f.isDirectory() ? '.Disc' : null}/{ny}/{any{fn.match(/(.*\d\d\d\d.*?\d{3,}p.*)/).removeAll(/-xpost/)}{ny + ' ' + '[' + allOf{source+'-'}{vf}{' '+hdr}{' '+ac}{' '+vc}{' '+channels}{'-'+group}.join() + ']'}}"
+animeFormat="TV Shows/Processed/{(audio.language) =~ /en/ ? null : 'Foreign.'}Anime{hd =~ /UHD/ ? '.4K' : null}{f.directory ? '.Disc' : null}/{ny}/{any{fn.match(/(.*S\d\dE\d\d.*?\d{3,}p.*)/).removeAll(/-xpost/)}{ny + ' ' + s00e00 + ' - ' + t + ' - [' + allOf{source+'-'}{vf}{' '+hdr}{' '+ac}{' '+vc}{' '+channels}{'-'+group}.join() + ']'}}"
+unsortedFormat=TV Shows/Unsorted/{file.structurePathTail}
+unsorted=y
+music=n
+artwork=n
+clean=y
+extras=n
+deleteAfterExtract=y
+minFileSize=0
+minLengthMS=0
+skipExtract=y
